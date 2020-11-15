@@ -1,4 +1,4 @@
-package com.imricki.cloud.openshift.openshiftdemo;
+package com.imricki.cloud.openshift.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
