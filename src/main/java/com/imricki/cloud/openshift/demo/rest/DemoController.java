@@ -10,12 +10,12 @@ class DemoController {
 	@GetMapping("/hi")
 	public String sayHi() {
 		
-		return  "Hi From the Cloud";
+		return  "Hi From the Cloud!";
 	}
 	
 	@GetMapping("/hi/{name}")
 	public String sayHiByname(@PathVariable String name) {
 		
-		return  "Hi " + name + " from the Cloud";
+		return  "Hi " + name + " from the Cloud!";
 	}
 }
